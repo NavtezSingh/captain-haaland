@@ -2,11 +2,11 @@ Absolutely! Here’s a **professional, clear, and FPL-themed README** for your p
 
 ---
 
-# 🏆 FPL Optimizer / HaulBot
+# 🏆 CaptainHaaland
 
 > **Maximize your Fantasy Premier League points every Gameweek with data-driven optimization.**
 
-HaulBot (or FPL Optimizer) is a Python-based tool that **selects the optimal 15-man FPL squad** using **fixture-adjusted projected points** and Linear Programming. It considers **budget, positions, club limits, and upcoming fixtures** to create a squad built for maximum points.
+CaptainHaaland (or FPL Optimizer) is a Python-based tool that **selects the optimal 15-man FPL squad** using **fixture-adjusted projected points** and Linear Programming. It considers **budget, positions, club limits, and upcoming fixtures** to create a squad built for maximum points.
 
 ---
 
@@ -32,8 +32,8 @@ HaulBot (or FPL Optimizer) is a Python-based tool that **selects the optimal 15-
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/HaulBot.git
-cd HaulBot
+git clone https://github.com/<your-username>/CaptainHaaland.git
+cd CaptainHaaland
 
 # Install required Python packages
 pip install pandas pulp requests numpy
@@ -90,7 +90,7 @@ python optimize_squad.py
 ## 📂 Project Structure
 
 ```
-HaulBot/
+captain-haaland/
 │
 ├── fetch_fpl_data.py           # Pulls player & fixture data from FPL API
 ├── calculate_projected_points.py # Computes fixture-adjusted projected points
